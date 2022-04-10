@@ -64,16 +64,16 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hi. ☺️\n"
-    "Thank you for using me 😬\n\n"
-    "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/NoPMsBot\n\n\n"
-    "If you are the owner of this bot, "
-    "and are seeing this message 🤦‍♂️, "
-    "means that you have not set up "
-    "the ENVironment variables properly "
-    "for the bot to function.\n\n\n"
-    "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+    "Salut. ☺️\n"
+    "Merci de m'avoir utilisée 😬\n\n"
+    "Ceci est un projet open source depuis "
+    "https://github.com/codingtuto/Livegram-Bot/\n\n\n"
+    "Si vous êtes le propriétaire de ce bot, "
+    "et voyez ce message 🤦‍♂️",
+     "signifie que vous n'avez pas configuré"
+     "les variables ENVironnement correctement"
+     "pour que le bot fonctionne.\n\n\n"
+     "ℹ️ Abonnez-vous à @codingtuto si vous 😍 utilisez ce bot❗️❣️"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -84,10 +84,10 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "i am online <b>master</b>\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "je suis en ligne <b>chef</b>\n\n"
+        "Ceci est un projet open source disponible vers "
+        "https://github.com/codingtuto/Livegram-Bot\n\n\n"
+        "ℹ️ Abonnez-vous à @codingtuto si vous 😍 utilisez ce bot❗️❣️"
     )
 )
 # message to indicate,
@@ -96,10 +96,10 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "this message was deleted\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "Message supprimée\n\n"
+        "Projets open source disponible sur "
+        "https://github.com/codingtuto/Livegram-Bot\n\n\n"
+        "ℹ️ Abonnez-vous à @codingtuto si vous 😍 utilisez ce bot❗️❣️"
     )
 )
 # IDEKWBYRW
@@ -111,8 +111,8 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "You have been <b>banned</b> forever.\n\n"
-        "<u>Reason</u>: <code>{reason}</code>"
+        "Vous etes <b>banni</b> forever.\n\n"
+        "<u>Raison</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -124,14 +124,14 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "You have been <b>un-banned</b>.\n\n"
-        "<u>Reason</u>: <code>{reason}</code>"
+        "Vous etes <b>débanni</b>.\n\n"
+        "<u>Raison</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
 BOT_WS_BLOCKED_BY_USER = get_config(
     "BOT_WS_BLOCKED_BY_USER",
-    "Bot was blocked by the user."
+    "Le bot a été bloqué par l'utilisateur."
 )
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "NoPMsBot.log")
