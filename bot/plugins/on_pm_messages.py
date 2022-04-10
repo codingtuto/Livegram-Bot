@@ -65,7 +65,7 @@ async def on_pm_s(client: Bot, message: Message):
       except UserNotParticipant:
           chat = await client.get_chat(SUB_CHANNEL)
           username = f" [@{chat.username}] " if chat.username else ""
-          return await message.reply_text(f"You Need to Join {chat.title}{username} in order to Use This Bot!.")
+          return await message.reply_text(f"Vous devez rejoindre ce canal {chat.title}{username} avant d'entamer une conversation avec les admins!.")
     fwded_mesg = None
     if message.edit_date:
         ym = get_chek_dmid(message.message_id)
