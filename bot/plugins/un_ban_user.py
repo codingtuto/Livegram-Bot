@@ -73,5 +73,5 @@ async def un_ban_command(client: Client, message: Message):
     await message.reply_text(
         f"<a href='tg://user?id={user_id}'>"
         "user"
-        "</a> <b>unbanned</b>."
+        "</a> <b>débanni</b>."
     )
