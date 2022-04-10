@@ -1,18 +1,35 @@
-# Telegram Relay Bot
+# Bot de relais de télégramme
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [COPYING](./../COPYING) for more details.
+Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE ; sans même la garantie implicite de QUALITÉ MARCHANDE ou d'ADÉQUATION À UN USAGE PARTICULIER. Voir [COPYING](./../COPYING) pour plus de détails.
 
 
-#### The Legacy Way [ for GNU/Linux users, ~~if you are comfortable with messing up your system~~]
+#### The Legacy Way [pour les utilisateurs de GNU/Linux, ~~si vous êtes à l'aise avec l'idée de gâcher votre système~~]
 
-- if you want to run this bot in your GNU/Linux System,
+- si vous souhaitez exécuter ce bot dans votre système GNU/Linux,
 - `mv sample_config.env config.env`
-- Edit the `config.env` with the appropriate values.
-- Read below, to understand what the configuration variables does.
-- Run `python -m bot`.
+- Modifiez le `config.env` avec les valeurs appropriées.
+- Lisez ci-dessous, pour comprendre ce que font les variables de configuration.
+- Exécutez `python -m bot`.
 
 
-## Credits, and Thanks to
+## Crédits et merci à
 
 * [ThankTelegram](https://telegram.dog/ThankTelegram)
-* [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
+* [Dan Tès](https://telegram.dog/haskell) pour sa [Bibliothèque Pyrogram](https://github.com/pyrogram/pyrogram)# Bot de relais de télégramme
+
+Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE ; sans même la garantie implicite de QUALITÉ MARCHANDE ou d'ADÉQUATION À UN USAGE PARTICULIER. Voir [COPYING](./../COPYING) pour plus de détails.
+
+
+#### The Legacy Way [pour les utilisateurs de GNU/Linux, ~~si vous êtes à l'aise avec l'idée de gâcher votre système~~]
+
+- si vous souhaitez exécuter ce bot dans votre système GNU/Linux,
+- `mv sample_config.env config.env`
+- Modifiez le `config.env` avec les valeurs appropriées.
+- Lisez ci-dessous, pour comprendre ce que font les variables de configuration.
+- Exécutez `python -m bot`.
+
+
+## Crédits et merci à
+
+* [ThankTelegram](https://telegram.dog/ThankTelegram)
+* [Dan Tès](https://telegram.dog/haskell) pour sa [Bibliothèque Pyrogram](https://github.com/pyrogram/pyrogram)
