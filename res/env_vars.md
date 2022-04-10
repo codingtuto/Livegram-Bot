@@ -9,11 +9,11 @@ Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GAR
 
 * `TG_BOT_TOKEN` : créez un bot à l'aide de [@BotFather](https://telegram.dog/BotFather) et obtenez le jeton API Telegram.
 
-* `ID_APP`
+* `APP_ID`
 * `API_HASH` : obtenez ces deux valeurs à partir de [my.telegram.org/apps](https://my.telegram.org/apps).
   * N.B. : si Telegram est bloqué par votre FAI, essayez notre [bot Telegram](https://telegram.dog/UseTGXBot) pour obtenir les identifiants.
 
-* `CANAL_AUTH` :
+* `AUTH_CHANNEL` :
 Créez un super groupe dans Telegram, ajoutez `@GoogleIMGBot` au groupe et envoyez /id dans le chat pour obtenir cette valeur.
 
 * `DATABASE_URL` : ~~si vous utilisez Heroku, cette valeur est automatiquement remplie par le plugin Postgres.~~ si vous n'utilisez pas Heroku, lisez le guide sur [comment installer la base de données ?](https://github. com/SpEcHiDe/NoPMsBot/wiki/How-to-Install-Database-%3F).
